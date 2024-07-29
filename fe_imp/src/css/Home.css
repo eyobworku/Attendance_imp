@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    21deg,
+    rgba(7, 52, 150, 1) 20%,
+    rgb(37, 176, 218) 88%,
+    rgba(42, 198, 230, 1) 100%
+  );
+}
+.sec-container {
+  display: flex;
+}
+
+.create-shedule-btn {
+  margin: auto 30px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, alpha0.5);
+  background-color: whitesmoke;
+}
+.create-shedule-btn:hover {
+  background-color: #f54254;
+}
+
+.main-content {
+  position: relative;
+  width: 100%;
+}
+.create-shedule {
+  margin: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.create-shedule p {
+  font-size: 3rem;
+  text-wrap: nowrap;
+  color: whitesmoke;
+}
+
+/* side bar */
+.schedule-list {
+  width: 200px;
+}
+.schedule-item {
+  margin: 20px auto;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.schedule-name {
+  color: #ebfcff;
+}
+.schedule-item:hover {
+  background-color: #f54254;
+}
+.schedule-action {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.schedule-item:hover .schedule-action {
+  opacity: 1;
+}
+
+/* pop up */

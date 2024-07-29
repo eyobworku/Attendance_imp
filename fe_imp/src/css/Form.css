@@ -1,0 +1,113 @@
+:root {
+  /*Background Color*/
+  --color-background: #fdfdfd;
+
+  /*Primary Color*/
+  --color-primary: #407bff;
+
+  /*Text Colors*/
+  --color-black: #000000;
+  --color-grey: #d3d3d3;
+  --color-grey-dark: #8b8b8b;
+  --color-grey-light: #e7e7e7;
+  --color-dark: #0000008a;
+  --color-white: #ffffff;
+
+  /*Danger Message*/
+  --color-danger-text: #721c24;
+  --color-danger-background: #f8d7da;
+  --color-danger-border: #f5c6cb;
+  --color-danger: #dc3545;
+
+  /*Success Message*/
+  --color-success-text: #155724;
+  --color-success-background: #d4edda;
+  --color-success-border: #c3e6cb;
+  --color-success: #198754;
+
+  /*Info Message*/
+  --color-info-text: #0c5460;
+  --color-info-background: #d1ecf1;
+  --color-info-border: #bee5eb;
+  --color-info: #0dcaf0;
+  --color-new-info: #d93025;
+
+  --default-font-size: 1rem;
+
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.form {
+  width: 100%;
+}
+.form__group {
+  width: 100%;
+}
+.form__group:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.form__label {
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.form__input {
+  display: block;
+  width: 100%;
+  transition: all 0.2s;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  padding: 1rem;
+  font-size: var(--default-font-size);
+  border-radius: 3px;
+}
+.form__input:focus {
+  box-shadow: 0 0 0.1rem 0.1rem var(--color-grey);
+}
+.form__textarea {
+  display: block;
+  width: 100%;
+  transition: all 0.2s;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  padding: 1.2rem;
+  font-size: var(--default-font-size);
+  border-radius: 3px;
+  height: 10rem;
+  font-family: "Lato", sans-serif;
+}
+.form__textarea:focus {
+  box-shadow: 0 0 0.1rem 0.1rem var(--color-grey);
+}
+.form__file {
+  display: block;
+  visibility: none;
+  appearance: none;
+  width: 100%;
+  transition: all 0.2s;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  padding: 1.7rem;
+  font-size: var(--default-font-size);
+  border-radius: 3px;
+  /* &-input {
+       display: none;
+   }
+    */
+}
+.form__file:focus {
+  box-shadow: 0 0 0.1rem 0.1rem var(--color-grey);
+}
+.form__select {
+  display: block;
+  width: 100%;
+  transition: all 0.2s;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  padding: 1.7rem;
+  font-size: var(--default-font-size);
+  border-radius: 3px;
+}
+.form__select:focus {
+  box-shadow: 0 0 0.1rem 0.1rem var(--color-grey);
+}

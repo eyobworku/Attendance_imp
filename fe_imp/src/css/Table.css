@@ -1,0 +1,29 @@
+.viewer {
+  position: relative;
+  width: calc(100vw - 200px);
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.upload-btn {
+  color: #fff;
+  position: absolute;
+  padding: 10px 20px;
+  bottom: 50px;
+  right: 50px;
+  background: rgb(12, 104, 209);
+}
+.close-table {
+  color: red;
+  font-size: 2rem;
+  background-color: rgb(12, 104, 209);
+  position: absolute;
+  padding: 10px;
+  top: 50px;
+  right: 50px;
+  text-align: center;
+}
+.error-tag {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+}

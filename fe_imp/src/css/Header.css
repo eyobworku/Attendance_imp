@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  border: none;
+  padding: 10px 20px;
+  color: #f54254;
+  font-weight: 7000;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav > * {
+  margin: auto 30px;
+}
+.name-container {
+  position: relative;
+  margin: auto 30px;
+}
+.admin-info {
+  position: absolute;
+  font-size: 0.75em;
+  left: 50%; /* 3 */
+  transform: translate(-50%);
+  color: #f54254;
+}
+.username {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.logout-btn {
+  margin: auto 30px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, alpha0.5);
+  background-color: whitesmoke;
+}
+.logout-btn:hover {
+  background-color: #f54254;
+}
+.user-btn {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "No": 1,
+    "Student_ID": "NSR/0800/13",
+    "Name": "Eyob",
+    "Fname": "Worku",
+    "Gname": "Dechasa",
+    "Sex": "M",
+    "Host_organization": "Swift Technologies PLC",
+    "CBE_acc": 1000399823987,
+    "location": "remote"
+  },
+  {
+    "No": 2,
+    "Student_ID": "NSR/1953/13",
+    "Name": "Surafel",
+    "Fname": "Tadesse",
+    "Gname": "Bekele",
+    "Sex": "M",
+    "Host_organization": "Awura Computing PLC",
+    "CBE_acc": 1000396442853,
+    "location": "Bole Olympia, Rizq House, 303"
+  },
+  {
+    "No": 3,
+    "Student_ID": "NSR/1839/13",
+    "Name": "Selahadin",
+    "Fname": "Nasir",
+    "Gname": "Umer",
+    "Sex": "M",
+    "Host_organization": "Xion Computing PLC",
+    "CBE_acc": 1000416772518
+  },
+  {
+    "No": 4,
+    "Student_ID": "NSR/0292/13",
+    "Name": "Atnaf",
+    "Fname": "Abebe",
+    "Gname": "Gelan",
+    "Sex": "M",
+    "Host_organization": "Adama Smart City ",
+    "CBE_acc": 1000412762901,
+    "location": "Mebrat Hayl, Adama"
+  },
+  {
+    "No": 5,
+    "Student_ID": "NSR/1633/13",
+    "Name": "Nathan",
+    "Fname": "Dereje",
+    "Gname": "Kiflu",
+    "Sex": "M",
+    "Host_organization": "Xion Computing PLC",
+    "CBE_acc": 1000418095907
+  },
+  {
+    "No": 6,
+    "Student_ID": "NSR/1710/13",
+    "Name": "Oftanenus",
+    "Fname": "Kasa",
+    "Gname": "Dame",
+    "Sex": "M",
+    "Host_organization": "Xion Computing PLC",
+    "CBE_acc": 1000539682214
+  },
+  {
+    "No": 7,
+    "Student_ID": "NSR/1402/13",
+    "Name": "Matiwos",
+    "Fname": "Fikru",
+    "Gname": "Bosha",
+    "Sex": "M",
+    "Host_organization": "Wolkite University",
+    "CBE_acc": 1000262875087
+  },
+  {
+    "No": 8,
+    "Student_ID": "NSR/0900/13",
+    "Name": "Fitsum",
+    "Fname": "Belayneh",
+    "Gname": "Yonas",
+    "Sex": "M",
+    "Host_organization": "Xion Computing Plc",
+    "CBE_acc": 1000332492458
+  },
+  {
+    "No": 9,
+    "Student_ID": "NSR/1635/13",
+    "Name": "Nathnael",
+    "Fname": "Tsegaye",
+    "Gname": "Gebre Selassie",
+    "Sex": "M",
+    "Host_organization": "Xion computing PLC",
+    "CBE_acc": 1000352143387
+  }
+]
