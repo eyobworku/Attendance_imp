@@ -31,7 +31,7 @@ export default function App() {
 
 function RequireAuth({ children }) {
   const token = getToken();
-  console.log("token", token);
+  // console.log("token", token);
   if (!token) {
     return <Navigate to="/login" />;
   }

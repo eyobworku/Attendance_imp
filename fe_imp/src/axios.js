@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./utils/utils";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: import.meta.env.VITE_URL,
   // headers: config,
 });
 
